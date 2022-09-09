@@ -16,7 +16,6 @@ public class BOJ11724 {
     //첫째 줄에 연결 요소의 개수를 출력한다.
 
     static ArrayList<ArrayList<Integer>> graph;
-    static Stack<Integer> stack;
     static boolean[] visited;
     static int n;
 
@@ -26,7 +25,6 @@ public class BOJ11724 {
 
         n = Integer.parseInt(st.nextToken());
         graph = new ArrayList<>();
-        stack = new Stack<>();
         visited = new boolean[n + 1];
 
         int m = Integer.parseInt(st.nextToken());
